@@ -37,10 +37,10 @@ Você pode acessar sua aplicação via **`localhost`**, se estiver executando os
 
 Para acessar um contêiner use `docker-compose exec <nome_serviço> bash`.
 
-Serviços|Acesso
-------|---------|-----------
-Webserver|[localhost:8080](http://localhost:8080)
-Postgres | Qualquer cliente de banco de dados ou diretamente via `docker-compose exec postgres psql -U <usuario>`. 
+Serviços|Acesso|
+|------|---------|
+|Webserver|[localhost:8080](http://localhost:8080)|
+|Postgres | Qualquer cliente de banco de dados ou diretamente via `docker-compose exec postgres psql -U <usuario>`| 
 
 
 ## Comando úteis do docker compose #
